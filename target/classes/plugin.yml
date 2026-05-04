@@ -1,0 +1,17 @@
+name: GiftMaker
+version: '1.0'
+main: ru.florestdev.giftMaker.GiftMaker
+api-version: '1.21'
+prefix: GIFTMAKER
+load: STARTUP
+authors: [ FlorestDev ]
+description: Private FlorestMC's plugin on gifts and others!
+commands:
+  gift:
+    description: ADMIN COMMAND
+    permission: gifts.admin
+    usage: /gift
+permissions:
+  gifts.admin:
+    description: ADMIN PERMISSION
+    default: op
